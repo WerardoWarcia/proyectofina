@@ -1,0 +1,48 @@
+.ChangeToHear_view{
+    .titulo{
+        position: absolute;
+        text-align: center;
+        margin-top: 10em;
+        margin-left: 3em;
+    }
+    .btnfondo1{
+        position: absolute;
+        width: 8em;
+        border-radius: 10em;
+        height: 8em;
+        left: 1em;
+        top: 15em;
+        padding-top: 3em;
+        text-align: center;
+        background: linear-gradient(180deg, #0095DB 0%, #69C6F2 100%);
+    }
+    .yes{
+        position: absolute;
+        width: 3em;
+        left: 3.5em;
+        top: 15em;
+        padding-top: 3em;
+
+
+    }
+    .btnfondo2{
+        
+        position: absolute;
+        width: 8em;
+        border-radius: 10em;
+        height: 8em;
+        left: 11em;
+        top: 15em;
+        padding-top: 3em;
+        text-align: center;
+        background: linear-gradient(180deg, #DB005C 0%, #813FD6 100%);
+    }
+    .no{
+        position: absolute;
+        width: 2em;
+        left: 14em;
+        top: 15em;
+        padding-top: 3em;
+        text-align: center;
+    }
+}

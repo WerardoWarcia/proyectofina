@@ -1,0 +1,22 @@
+.countdown_view{
+    position: absolute;
+    width: 15em;
+    height: 15em;
+    left: 4em;
+    top: 10em;
+    border-radius: 10em;
+    background: radial-gradient(164.50px at 50% 50%, #5FC1F0 0%, #347CED 100%);
+    .cuenta{
+        position: absolute;
+        left: 2.2em;
+        top: 1.7em;
+        font-size: 3em;
+    }
+    .preparado{
+        margin-top: -3em;
+        text-align: center;
+    }
+    .sigues{
+        text-align: center;
+    }
+}

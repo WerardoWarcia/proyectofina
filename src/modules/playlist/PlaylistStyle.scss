@@ -1,0 +1,24 @@
+div{
+    margin-top: 1vh;
+    margin-bottom: 2vh;
+    overflow: hidden;
+    .play{
+        background: red;
+        
+        width: 10vh;
+        height: 5vh;
+        margin-left: 40vh;
+        margin-top: -6%;
+        border-radius: 10vh;
+        text-align: center;
+        padding-top: 0.5vh;
+        background: linear-gradient(180deg, #F85E1A 0%, #FCC380 100%);
+    }
+}
+.rolon{
+    margin-left: 10vh;
+    margin-top: 5vh;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+}
+

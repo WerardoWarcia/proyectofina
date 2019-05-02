@@ -1,0 +1,85 @@
+
+body{
+
+    color: white;
+    overflow: hidden;
+
+}
+@media (min-width: 550){
+
+}
+.onditas2{
+    background-image: url('/images/ondas2.png'); 
+    background-size: contain; min-height: 130vh; 
+    margin-left: -3em;
+    background-position-y: 50%;
+    
+}
+.onditas1{
+    background-image: url('/images/ondas1.png'); 
+    background-size: contain; min-height: 100%; 
+    background-position-y: 50%; 
+}
+.bgBlue{
+    background: linear-gradient(150.64deg, #0E60DA 0%, #64C7FF 100%);
+}
+.bgPrple{
+    background: linear-gradient(150.64deg, #5530FC 0%, #ED3FDE 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 900px;
+}
+.bgblack{
+    background: linear-gradient(180deg,  #1d2559 0%, #000000 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 900px;
+
+}
+
+.login_view{
+       font-family: 'Nunito', sans-serif;
+
+    
+    #titulo{
+
+            text-align: center;
+            height: -20%;
+            font-size: 1em;
+            margin-top: -0%;
+            color: #5CECF5;
+            margin-left: 14%;
+
+        }
+    p{
+        padding-left: 50%;
+    }
+    
+    .startbtn{   
+     
+        width: 20%;
+        height: 20%;
+        color:white;
+        background: linear-gradient(180deg, #F85E1A 0%, #FCC380 100%);
+        border-radius: 5vh;
+        padding-top: 0.5%;
+        padding-left: 4.5%;
+        margin-left: 45%;
+        margin-top: -60%;
+        margin-bottom: 15%;
+    }
+    .nickname{
+        margin-left: 41%;
+        margin-top: 2%;
+        width: 30%;
+        height: 4vh;
+        border-top-color: transparent;
+        border-left-color: transparent;
+        border-right-color: transparent;
+        background-color: transparent;
+    }
+    .logo{
+        width: 43vh;
+        margin-left: 24%;
+    }
+}

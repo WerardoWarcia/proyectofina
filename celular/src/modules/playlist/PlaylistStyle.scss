@@ -1,0 +1,23 @@
+div{
+    margin-top: 1vh;
+    margin-bottom: 2vh;
+    .play{
+        background: red;
+        position: absolute;
+        width: 10vh;
+        height: 5vh;
+        left: 32vh;
+        top: 0vh;
+        border-radius: 10vh;
+        text-align: center;
+        padding-top: 0.5vh;
+        background: linear-gradient(180deg, #F85E1A 0%, #FCC380 100%);
+    }
+}
+.rolon{
+    margin-left: 10vh;
+    margin-top: 5vh;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+}
+

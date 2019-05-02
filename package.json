@@ -1,0 +1,45 @@
+{
+  "name": "candidatum",
+  "version": "1.0.0",
+  "main": "main.coffee",
+  "author": "Homero Sousa",
+  "license": "MIT",
+  "scripts": {
+    "start:dev": "webpack-dev-server --config webpack.dev.config.coffee",
+    "start:mobile": "webpack-dev-server --config webpack.dev.config.coffee --host 0.0.0.0",
+    "build": "webpack --config webpack.prod.config.coffee"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "coffee-loader": "^0.9.0",
+    "coffeescript": "^2.2.2",
+    "css-loader": "^0.28.10",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^1.1.11",
+    "handlebars": "^4.0.11",
+    "handlebars-loader": "^1.6.0",
+    "html-webpack-plugin": "^2.30.1",
+    "node-sass": "^4.7.2",
+    "sass-loader": "^6.0.6",
+    "skeleton-sass-official": "^3.1.5",
+    "style-loader": "^0.20.2",
+    "uglifyjs-webpack-plugin": "^1.2.0",
+    "url-loader": "^1.0.1",
+    "webpack": "^3.11.0",
+    "webpack-dev-server": "^2.11.1",
+    "webpack-merge": "^4.1.2"
+  },
+  "dependencies": {
+    "animate.css": "^3.7.0",
+    "backbone": "^1.3.3",
+    "backbone.marionette": "^3.5.1",
+    "backbone.modal": "^1.1.6",
+    "dotenv-webpack": "^1.7.0",
+    "gsap": "^1.20.4",
+    "ismobilejs": "^0.4.1",
+    "jquery": "^3.3.1",
+    "socket.io-client": "^2.2.0",
+    "underscore": "^1.8.3"
+  }
+}

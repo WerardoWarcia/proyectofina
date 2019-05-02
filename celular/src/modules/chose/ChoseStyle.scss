@@ -1,0 +1,58 @@
+.Chose_view{
+    contain: content;
+    width: 100%;
+    font-family: 'Nunito', sans-serif;
+    p{
+        
+    }
+    .escuchar{
+        width: 20vh;
+        height: 20vh;
+        margin-top: -60%;
+        margin-left: 20%;
+        color: white;
+        border-radius: 100%;
+        background: linear-gradient(180deg, #0095DB 0%, #69C6F2 100%);
+        padding-top: 12vh;
+
+    }
+    .cantar{
+        width: 20vh;
+        height: 20vh;
+        margin-left: 60%;
+        color:white;
+        margin-top: -35%;
+        border-radius: 100px;
+        background: linear-gradient(180deg, #5A0389 0%, #E757FF 100%);
+        padding-top: 12vh;
+
+    }
+    .evento{
+        top: 10vh;
+        left: 24vh;
+        text-align: center;
+        color:red;
+        
+
+    }
+    .logo{
+        width: 43vh;
+        margin-left: 24%;
+    }
+    .microfono{
+        width: 10%;
+        height: 10%;
+        margin-left: 25%;
+        margin-top: -90%;
+        z-index: 1;
+
+
+    }
+    .manitas{
+        width: 10%;
+        height: 10%;
+        margin-left: 32%;
+        margin-top: -90%;
+        z-index: 1;
+    }
+}
